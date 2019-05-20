@@ -1,0 +1,10 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    height: 40px;
+    margin-top: 50px;
+    width: 100%;
+}

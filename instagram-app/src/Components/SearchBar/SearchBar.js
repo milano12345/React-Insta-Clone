@@ -4,11 +4,10 @@ import Cam from './NavBarImages/igcamera.jpg';
 import Name from './NavBarImages/igname.jpg';
 import Person from './NavBarImages/personbutton.jpg';
 import NavBtn from './NavBarImages/navbutton.jpg';
+import './SearchBar.css'
 class SearchBar extends React.Component {
     render() {
       return (
-        <div className="Nav">
-        this is my nav bar!
             <nav>
             <img src={Cam} alt="cam" />
             <img src={Name} alt="name" />
@@ -18,7 +17,6 @@ class SearchBar extends React.Component {
             <img src={Person} alt="profile" />
             </nav>
           
-        </div>
       );
     }
   }
