@@ -5,6 +5,7 @@ import Name from './NavBarImages/igname.jpg';
 import Person from './NavBarImages/personbutton.jpg';
 import NavBtn from './NavBarImages/navbutton.jpg';
 import './SearchBar.css'
+
 class SearchBar extends React.Component {
     render() {
       return (
@@ -15,8 +16,7 @@ class SearchBar extends React.Component {
             <img src={NavBtn} alt="explore" />
             <img src={Heart} alt="heart" />
             <img src={Person} alt="profile" />
-            </nav>
-          
+            </nav>   
       );
     }
   }
